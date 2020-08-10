@@ -6,3 +6,5 @@ type Customer struct {
 	Phone          string
 	CreditLimit    int
 }
+
+

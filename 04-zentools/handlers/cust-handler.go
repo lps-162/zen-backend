@@ -3,6 +3,7 @@ package handlers
 import (
 	"encoding/json"
 	"fmt"
+	"io/ioutil"
 	"net/http"
 	"strconv"
 	"zentools/models"
@@ -20,6 +21,7 @@ var customers = []models.Customer{
 }
 
 func (h *Handler) GetCustomers(w http.ResponseWriter, r *http.Request) {
+	// r.URL.Query()
 	// log.Println("Customers List :", customers)
 	// fmt.Fprintf(w, "List of all customers")
 	w.Header().Set("Content-Type", "application/json")
@@ -48,7 +50,19 @@ func (h *Handler) GetCustomerById(w http.ResponseWriter, r *http.Request) {
 }
 
 func (h *Handler) CreateCustomer(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Creating a new customer")
+	reqBody, _ := ioutil.ReadAll(r.Body)
+
+	var customer models.Customer
+	err := json.Unmarshal(reqBody, &customer)
+	if err != nil {
+		w.WriteHeader(http.StatusBadRequest)
+		fmt.Fprintf(w, "Badly formatted data")
+		return
+	}
+
+	customers = append(customers, customer)
+	w.WriteHeader(http.StatusCreated)
+	fmt.Fprintf(w, "Customer created successfully")
 }
 
 func (h *Handler) UpdateCustomer(w http.ResponseWriter, r *http.Request) {
