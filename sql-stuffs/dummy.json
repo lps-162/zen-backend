@@ -1,0 +1,103 @@
+[
+	{
+		"CustomerNumber": 103,
+		"CustomerName": "Atelier graphique",
+		"Phone": "40.32.2555",
+		"CreditLimit": 21000,
+		"Orders": [
+			{
+				"OrderNumber": 10100,
+				"OrderDate": "2003-01-06",
+				"ShippedDate": "2003-01-10",
+				"Status": "Shipped"
+			},
+			{
+				"OrderNumber": 10101,
+				"OrderDate": "2003-01-09",
+				"ShippedDate": "2003-01-11",
+				"Status": "Shipped"
+			},
+			{
+				"OrderNumber": 10102,
+				"OrderDate": "2003-01-10",
+				"ShippedDate": "2003-01-14",
+				"Status": "Shipped"
+			},
+			{
+				"OrderNumber": 10103,
+				"OrderDate": "2003-01-29",
+				"ShippedDate": "2003-02-02",
+				"Status": "Shipped"
+			},
+			{
+				"OrderNumber": 10104,
+				"OrderDate": "2003-01-31",
+				"ShippedDate": "2003-02-01",
+				"Status": "Shipped"
+			}
+		]
+	},
+	{
+		"CustomerNumber": 112,
+		"CustomerName": "Signal Gift Stores",
+		"Phone": "7025551838",
+		"CreditLimit": 71800,
+		"Orders": null
+	},
+	{
+		"CustomerNumber": 114,
+		"CustomerName": "Australian Collectors, Co.",
+		"Phone": "03 9520 4555",
+		"CreditLimit": 117300,
+		"Orders": null
+	},
+	{
+		"CustomerNumber": 119,
+		"CustomerName": "La Rochelle Gifts",
+		"Phone": "40.67.8555",
+		"CreditLimit": 118200,
+		"Orders": null
+	},
+	{
+		"CustomerNumber": 121,
+		"CustomerName": "Baane Mini Imports",
+		"Phone": "07-98 9555",
+		"CreditLimit": 81700,
+		"Orders": null
+	},
+	{
+		"CustomerNumber": 124,
+		"CustomerName": "Mini Gifts Distributors Ltd.",
+		"Phone": "4155551450",
+		"CreditLimit": 210500,
+		"Orders": null
+	},
+	{
+		"CustomerNumber": 125,
+		"CustomerName": "Havel \u0026 Zbyszek Co",
+		"Phone": "(26) 642-7555",
+		"CreditLimit": 0,
+		"Orders": null
+	},
+	{
+		"CustomerNumber": 128,
+		"CustomerName": "Blauer See Auto, Co.",
+		"Phone": "+49 69 66 90 2555",
+		"CreditLimit": 59700,
+		"Orders": null
+	},
+	{
+		"CustomerNumber": 129,
+		"CustomerName": "Mini Wheels Co.",
+		"Phone": "6505555787",
+		"CreditLimit": 64600,
+		"Orders": null
+	},
+	{
+		"CustomerNumber": 131,
+		"CustomerName": "Land of Toys Inc.",
+		"Phone": "2125557818",
+		"CreditLimit": 114900,
+		"Orders": null
+	}
+]
