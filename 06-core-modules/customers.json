@@ -1,0 +1,20 @@
+[
+	{
+		"CustomerNumber": 101,
+		"CustomerName": "John Richard",
+		"Phone": "999-11-888",
+		"CreditLimit": 500
+	},
+	{
+		"CustomerNumber": 105,
+		"CustomerName": "Shawn Mendes",
+		"Phone": "999-11-777",
+		"CreditLimit": 200
+	},
+	{
+		"CustomerNumber": 103,
+		"CustomerName": "Thomas Edison",
+		"Phone": "999-11-555",
+		"CreditLimit": 300
+	}
+]
