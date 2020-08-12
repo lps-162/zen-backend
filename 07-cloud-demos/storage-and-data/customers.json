@@ -1,0 +1,62 @@
+[
+	{
+		"customerNumber" : "103",
+		"customerName" : "Atelier graphique",
+		"phone" : "40.32.2555",
+		"creditLimit" : 21000
+	},
+	{
+		"customerNumber" : "112",
+		"customerName" : "Signal Gift Stores",
+		"phone" : "7025551838",
+		"creditLimit" : 71800
+	},
+	{
+		"customerNumber" : "114",
+		"customerName" : "Australian Collectors, Co.",
+		"phone" : "03 9520 4555",
+		"creditLimit" : 117300
+	},
+	{
+		"customerNumber" : "119",
+		"customerName" : "La Rochelle Gifts",
+		"phone" : "40.67.8555",
+		"creditLimit" : 118200
+	},
+	{
+		"customerNumber" : "121",
+		"customerName" : "Baane Mini Imports",
+		"phone" : "07-98 9555",
+		"creditLimit" : 81700
+	},
+	{
+		"customerNumber" : "124",
+		"customerName" : "Mini Gifts Distributors Ltd.",
+		"phone" : "4155551450",
+		"creditLimit" : 210500
+	},
+	{
+		"customerNumber" : "125",
+		"customerName" : "Havel & Zbyszek Co",
+		"phone" : "(26) 642-7555",
+		"creditLimit" : 0
+	},
+	{
+		"customerNumber" : "128",
+		"customerName" : "Blauer See Auto, Co.",
+		"phone" : "+49 69 66 90 2555",
+		"creditLimit" : 59700
+	},
+	{
+		"customerNumber" : "129",
+		"customerName" : "Mini Wheels Co.",
+		"phone" : "6505555787",
+		"creditLimit" : 64600
+	},
+	{
+		"customerNumber" : "131",
+		"customerName" : "Land of Toys Inc.",
+		"phone" : "2125557818",
+		"creditLimit" : 114900
+	}
+]
